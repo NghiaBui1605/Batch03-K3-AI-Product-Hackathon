@@ -1,0 +1,210 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1053 >>
+stream
+0.93 0.97 1 rg 0 515 842 80 re f
+0.05 0.18 0.37 rg
+BT /F2 12 Tf 50 550 Td (Slide 1/6 - User & Job) Tj ET
+BT /F2 26 Tf 50 505 Td (User & Job: Hoc vien can hoi lai bai ma khong lac nguon) Tj ET
+0.00 0.48 0.45 rg
+BT /F2 16 Tf 65 455 Td (Bang chung: chatlog co 2,522 dong, gom 1,261 luot student va 1,261 luot tutor.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 413 Td (Core JTBD: Khi dang on slide/transcript VLearn, hoc vien muon hoi bang ngon ngu tu nhien) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 386 Td (va tim dung phan bai hoc, de hieu nhanh ma khong phai tu keo tung trang PDF.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 359 Td (Log co nhieu cau phu thuoc ngu canh: "tom tat noi dung chinh trong slide nay",) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 332 Td ("giai thich 4 chien luoc", "cach xu ly ngu canh".) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 305 Td (Nguon: data/vlearn-pack/chatlog/chat_history_anonymized_for_hackathon.csv) Tj ET
+0.39 0.45 0.55 rg
+BT /F1 9 Tf 50 30 Td (VLearn Knowledge Tutor - PoorTeam E403) Tj ET
+BT /F1 9 Tf 765 30 Td (1/6) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1057 >>
+stream
+0.93 0.97 1 rg 0 515 842 80 re f
+0.05 0.18 0.37 rg
+BT /F2 12 Tf 50 550 Td (Slide 2/6 - Vi sao chon tinh nang nay) Tj ET
+BT /F2 26 Tf 50 505 Td (Vi sao chon VLearn Knowledge Tutor?) Tj ET
+0.00 0.48 0.45 rg
+BT /F2 16 Tf 65 455 Td (So sanh 4 y tuong:) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 413 Td (1. Tutor hoi dap theo slide/transcript - Impact cao - CHON.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 386 Td (2. Chatbot tong quat cho hoc vien - qua rong, de bia - LOAI.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 359 Td (3. Auto-generate quiz/dap an - rui ro lam bai ho - LOAI o moc nay.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 332 Td (4. Search-only PDF navigator - huu ich nhung chua du quyet dinh AI - GIU lam phu.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 305 Td (Ly do chon: co du lieu that, do duoc bang eval, demo duoc trong 5 phut.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 278 Td (Nguon: spec.md section 5; eval/test_cases.json) Tj ET
+0.39 0.45 0.55 rg
+BT /F1 9 Tf 50 30 Td (VLearn Knowledge Tutor - PoorTeam E403) Tj ET
+BT /F1 9 Tf 765 30 Td (2/6) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1069 >>
+stream
+0.93 0.97 1 rg 0 515 842 80 re f
+0.05 0.18 0.37 rg
+BT /F2 12 Tf 50 550 Td (Slide 3/6 - Giai phap & demo live) Tj ET
+BT /F2 26 Tf 50 505 Td (Giai phap: 2 tool cho chatbot hoc tap) Tj ET
+0.00 0.48 0.45 rg
+BT /F2 16 Tf 65 455 Td (AI quyet dinh: hoi bai hoc, tro chuyen thuong, hoi lai hay tu choi.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 413 Td (Tool 1 - lesson_search_tool: tim trong slide/transcript, tra ve day, page, citation, text.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 386 Td (Tool 2 - web_search_tool: dung RapidAPI web search khi cau ngoai slide can thong tin ngoai.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 359 Td (Demo live case chuan: "Agent trong Day1 la gi?" -> tra loi co nguon.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 332 Td (Demo live case kho: "Day1 co nhac GPT-9 khong?" -> noi khong co can cu, khong bia.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 305 Td (Nguon: tools/lessonSearchTool.js; tools/webSearchTool.js; server.js) Tj ET
+0.39 0.45 0.55 rg
+BT /F1 9 Tf 50 30 Td (VLearn Knowledge Tutor - PoorTeam E403) Tj ET
+BT /F1 9 Tf 765 30 Td (3/6) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 1173 >>
+stream
+0.93 0.97 1 rg 0 515 842 80 re f
+0.05 0.18 0.37 rg
+BT /F2 12 Tf 50 550 Td (Slide 4/6 - Ket qua do) Tj ET
+BT /F2 26 Tf 50 505 Td (Ket qua eval: dat quality bar) Tj ET
+0.00 0.48 0.45 rg
+BT /F2 16 Tf 65 455 Td (Quality bar: >=80% test case dat va khong duoc bia nguon du chi mot lan.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 413 Td (Bo test hien co: 30 case.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 386 Td (- 4 case thong tin khong co trong tai lieu.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 359 Td (- 4 case cau mo ho/thieu ngu canh.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 332 Td (- 4 case yeu cau khong duoc phep.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 305 Td (- 5 case tra loi sai gay hau qua that.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 278 Td (- 13 case normal chat + lesson answer + UI navigation.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 251 Td (Lan chay gan nhat: 30/30 dat = PASS 24, PASS_REVIEWED 2, PASS_CODE_CHECK 4.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 224 Td (Nguon: eval/results_latest_summary.json; eval/results_latest.csv) Tj ET
+0.39 0.45 0.55 rg
+BT /F1 9 Tf 50 30 Td (VLearn Knowledge Tutor - PoorTeam E403) Tj ET
+BT /F1 9 Tf 765 30 Td (4/6) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 1088 >>
+stream
+0.93 0.97 1 rg 0 515 842 80 re f
+0.05 0.18 0.37 rg
+BT /F2 12 Tf 50 550 Td (Slide 5/6 - User that noi gi) Tj ET
+BT /F2 26 Tf 50 505 Td (Validation: phan hoi lam thay doi san pham) Tj ET
+0.00 0.48 0.45 rg
+BT /F2 16 Tf 65 455 Td (Quote 1: "vi du toi tim agent nhung slide k nhay toi phan agent".) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 413 Td (-> Sua click search/citation de goi jumpToSource va reload PDF dung page.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 386 Td (Quote 2: "bay gio trong chatbot toi khong muon nhay slide nua".) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 359 Td (-> Bo auto-jump trong chatbot; user tu bam citation/search result.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 332 Td (Quote 3: "chatbot dg k doc dc het slide khi tom tat day1".) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 305 Td (-> Voi intent tom tat Day, gui toan bo slide cua Day do thay vi top 3 nguon.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 278 Td (Nguon: validation/feedback_log.md) Tj ET
+0.39 0.45 0.55 rg
+BT /F1 9 Tf 50 30 Td (VLearn Knowledge Tutor - PoorTeam E403) Tj ET
+BT /F1 9 Tf 765 30 Td (5/6) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 1020 >>
+stream
+0.93 0.97 1 rg 0 515 842 80 re f
+0.05 0.18 0.37 rg
+BT /F2 12 Tf 50 550 Td (Slide 6/6 - Neu co them 1 tuan) Tj ET
+BT /F2 26 Tf 50 505 Td (Neu co them 1 tuan) Tj ET
+0.00 0.48 0.45 rg
+BT /F2 16 Tf 65 455 Td (Uu tien 1: chay validation voi it nhat 5 nguoi ngoai nhom, ghi quote that.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 413 Td (Uu tien 2: cau hinh mot RapidAPI web search cu the de web_search_tool chay end-to-end.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 386 Td (Uu tien 3: highlight doan lien quan trong PDF/slide, khong chi nhay toi page.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 359 Td (Bai hoc lon nhat: AI tutor dang tin khong phai vi tra loi nhieu,) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 332 Td (ma vi biet dung nguon, hoi lai va tu choi dung luc.) Tj ET
+0.06 0.09 0.16 rg
+BT /F1 13 Tf 75 305 Td (Nguon: spec.md section 9, eval/results_latest_summary.json, validation/feedback_log.md) Tj ET
+0.39 0.45 0.55 rg
+BT /F1 9 Tf 50 30 Td (VLearn Knowledge Tutor - PoorTeam E403) Tj ET
+BT /F1 9 Tf 765 30 Td (6/6) Tj ET
+endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000154 00000 n 
+0000000224 00000 n 
+0000000299 00000 n 
+0000000435 00000 n 
+0000001540 00000 n 
+0000001676 00000 n 
+0000002785 00000 n 
+0000002922 00000 n 
+0000004044 00000 n 
+0000004182 00000 n 
+0000005408 00000 n 
+0000005546 00000 n 
+0000006687 00000 n 
+0000006825 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+7898
+%%EOF
