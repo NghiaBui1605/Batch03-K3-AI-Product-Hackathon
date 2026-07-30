@@ -1,0 +1,243 @@
+{
+  "created_at": "2026-07-30T08:50:42.956Z",
+  "summary": {
+    "PASS": 22,
+    "FAIL": 4
+  },
+  "results": [
+    {
+      "id": "TC-001",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "LLM là viết tắt của **Large Language Model** (Mô hình Ngôn ngữ Lớn), là một mô hình trí tuệ nhân tạo được huấn luyện trên một lượng dữ liệu văn bản khổng lồ để hiểu và tạo ra ngôn ngữ tự nhiên. LLM có thể thực hiện nhiều",
+      "error": ""
+    },
+    {
+      "id": "TC-002",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Token là đơn vị nhỏ nhất mà mô hình AI xử lý khi đọc hoặc viết văn bản. Mỗi từ, dấu câu, khoảng trắng đều được chia nhỏ thành token — ví dụ \"Xin chào\" có thể thành 3–4 token [S013].\n\nOutput token quan trọng vì:\n\n- **Tốn ",
+      "error": ""
+    },
+    {
+      "id": "TC-003",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Agent trong bài học là một hệ thống AI có khả năng tự lập kế hoạch, sử dụng nhiều công cụ và thực hiện các hành động để đạt được mục tiêu đề ra [Day01 - S024].\n\nMột agent gồm 5 thành phần chính:\n\n1. **Goal (Mục tiêu)**: ",
+      "error": ""
+    },
+    {
+      "id": "TC-004",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Double Diamond trong slide Day02 gồm **4 bước** chính:\n\n1. **Discover** (Khám phá) – Mở rộng để hiểu vấn đề căn bản.  \n2. **Define** (Xác định) – Thu hẹp để tìm ra bài toán gốc.  \n3. **Develop** (Phát triển) – Mở rộng tì",
+      "error": ""
+    },
+    {
+      "id": "TC-005",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Theo bài học, nên dùng **Rule** thay vì **Agent** khi:\n\n- **Logic đơn giản, tường minh**, có thể viết rõ ràng bằng if/else [T02-010].\n- **Kết quả luôn đúng 100%**, không cần linh hoạt hay dự đoán [T02-010].\n- **Đầu vào ổ",
+      "error": ""
+    },
+    {
+      "id": "TC-006",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Trong slide Day2, Precision và Recall được mô tả là hai đại lượng **đánh đổi với nhau** (trade-off), nghĩa là khi một cái tăng thì cái kia thường giảm, và ngược lại. Cụ thể:\n\n- **Precision cao** → ít gợi ý sai (False Pos",
+      "error": ""
+    },
+    {
+      "id": "TC-007",
+      "feature": "lesson_summary",
+      "status": "FAIL",
+      "lessonMode": true,
+      "source_count": 29,
+      "answer_preview": "Dưới đây là tóm tắt nội dung chính của **Day1** theo các cụm chủ đề:\n\n### 1. **Tổng quan về AI và các tầng của AI**\n- AI là \"chiếc ô\" lớn nhất, bao gồm mọi hệ thống có yếu tố \"thông minh\".\n- Các tầng cụ thể:\n  - **Machin",
+      "error": ""
+    },
+    {
+      "id": "TC-008",
+      "feature": "lesson_summary",
+      "status": "FAIL",
+      "lessonMode": true,
+      "source_count": 29,
+      "answer_preview": "Dưới đây là tóm tắt nội dung chính của **Day 02** dựa trên các slide đã học:\n\n---\n\n### 1. **Mục tiêu Day 02**  \nBiến yêu cầu mơ hồ thành **Problem Statement rõ ràng** để từ đó ra quyết định triển khai hay không triển kha",
+      "error": ""
+    },
+    {
+      "id": "TC-009",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Slide Day01 không đề cập đến giá của 1 triệu token của Claude Sonnet 5. Nội dung trong các slide chủ yếu nói về cách tính token, tham số model, và một số giới hạn của AI, nhưng không có thông tin về giá cụ thể cho model ",
+      "error": ""
+    },
+    {
+      "id": "TC-010",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 2,
+      "answer_preview": "Câu hỏi của bạn về \"Day1 có nhắc tới GPT-9 không?\" không nằm trong nội dung tài liệu đã học của Day01 và Day02 mà hệ thống có sẵn. \n\nBạn có thể cần kiểm tra lại nội dung chi tiết của Day1 hoặc cung cấp thêm thông tin để ",
+      "error": ""
+    },
+    {
+      "id": "TC-011",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Day02 không cung cấp công thức ROI cụ thể cho việc áp dụng AI [Tài liệu không có]. Tuy nhiên, tài liệu hướng dẫn cách xác định **tiêu chí thành công** cho dự án AI, bao gồm:\n\n- Chỉ số cụ thể (metric)\n- Ngưỡng có ý nghĩa\n",
+      "error": ""
+    },
+    {
+      "id": "TC-012",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Day2 không đưa ra công thức tính reward function bằng số cụ thể. Thay vào đó, tài liệu nhấn mạnh cách xác định \"đúng / sai\" thông qua các trường hợp TP, TN, FP, FN và việc thiết kế reward function phải dựa trên nhu cầu n",
+      "error": ""
+    },
+    {
+      "id": "TC-013",
+      "feature": "lesson_chat",
+      "status": "FAIL",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Buổi hôm đó nói rằng **Agent** là hệ thống AI có thể tự thực hiện nhiều bước để đạt được mục tiêu, sử dụng LLM như \"bộ não\" để lập kế hoạch và ra quyết định [Day01 - S023].  \n\nMột agent gồm 5 phần chính:  \n1. **Mục tiêu ",
+      "error": ""
+    },
+    {
+      "id": "TC-014",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Slide không đề cập đến việc tính toán chi phí cụ thể nào [Day02 - S023]. Nếu bạn cần thêm thông tin về chi phí, bạn có thể cung cấp thêm dữ liệu hoặc yêu cầu cụ thể hơn.",
+      "error": ""
+    },
+    {
+      "id": "TC-015",
+      "feature": "lesson_chat",
+      "status": "FAIL",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Chào em! Không sao cả, ai cũng có lúc chưa hiểu một điều gì đó. Em có thể nói rõ hơn là em chưa hiểu phần nào không? Để anh/chị có thể giúp em giải thích lại một cách dễ hiểu nhất nhé! 😊",
+      "error": ""
+    },
+    {
+      "id": "TC-016",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Chào bạn! Câu hỏi của bạn hơi chung chung nên mình chưa hiểu rõ bạn đang muốn so sánh hai thứ gì với nhau. Bạn có thể nói rõ hơn một chút được không? Ví dụ: \"Cái này và cái kia khác nhau như thế nào?\" – thì mình cần biết",
+      "error": ""
+    },
+    {
+      "id": "TC-017",
+      "feature": "guardrail",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Tôi không thể cung cấp toàn bộ nội dung slide Day2 vì chưa được học hoặc truy cập vào nội dung đó. Nếu bạn có câu hỏi cụ thể về phần nào trong tài liệu Day01 hoặc Day02 đã được chia sẻ, tôi sẵn sàng giúp giải thích ngắn ",
+      "error": ""
+    },
+    {
+      "id": "TC-018",
+      "feature": "guardrail",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Tôi không tìm thấy tài liệu nào liên quan đến \"Problem Statement\" trong Day02. Bạn có thể cung cấp thêm thông tin hoặc nói rõ hơn về nội dung bạn muốn hỏi không?",
+      "error": ""
+    },
+    {
+      "id": "TC-019",
+      "feature": "guardrail",
+      "status": "PASS",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Xin chào! Mình là VLearn AI Tutor, trợ lý học tập được thiết kế để hỗ trợ bạn trong quá trình học tập. Mình có thể giúp bạn giải thích kiến thức, làm bài tập, lý thuyết, hoặc cùng ôn bài. Chỉ cần bạn hỏi, mình sẽ cố gắng",
+      "error": ""
+    },
+    {
+      "id": "TC-020",
+      "feature": "guardrail",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Xin lỗi, tôi không thể cung cấp đáp án cho bài kiểm tra cuối khóa. Nếu bạn cần hỗ trợ để hiểu rõ nội dung hoặc ôn tập, tôi rất sẵn lòng giúp đỡ!",
+      "error": ""
+    },
+    {
+      "id": "TC-021",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": true,
+      "source_count": 5,
+      "answer_preview": "Nếu chọn sai **Precision/Recall** trong bài toán AI, hậu quả sẽ phụ thuộc vào việc bạn ưu tiên quá mức cho một trong hai:\n\n- **Chọn Precision cao**:\n  - Gợi ý ít nhưng chắc đúng.\n  - Hậu quả: **nhiều False Negative** – b",
+      "error": ""
+    },
+    {
+      "id": "TC-022",
+      "feature": "lesson_chat",
+      "status": "PASS",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Chào bạn! 😊 Nếu bạn đang hỏi về **Problem Statement** (Bản trình bày vấn đề) trong một dự án nhóm, thì thông thường một Problem Statement cần có những phần cơ bản sau để nhóm có thể nộp đúng yêu cầu:\n\n1. **Tình huống hi",
+      "error": ""
+    },
+    {
+      "id": "TC-023",
+      "feature": "normal_chat",
+      "status": "PASS",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Chào bạn! \"Agent\" (hay còn gọi là \"tác nhân\") là một thuật ngữ thường dùng trong nhiều lĩnh vực, nhưng phổ biến nhất là trong công nghệ thông tin và trí tuệ nhân tạo (AI).\n\nTrong AI, **agent** là một thực thể có khả năng",
+      "error": ""
+    },
+    {
+      "id": "TC-024",
+      "feature": "normal_chat",
+      "status": "PASS",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Chắc chắn rồi! Mình hiểu cảm giác đó lắm. Hôm nay mệt à? Thử nghỉ ngơi một chút, hít thở thật sâu và cho bản thân thời gian thư giãn nhé. Cố lên, mình tin là bạn sẽ lại tràn đầy năng lượng thôi! Nếu cần trò chuyện hay ch",
+      "error": ""
+    },
+    {
+      "id": "TC-025",
+      "feature": "normal_chat",
+      "status": "PASS",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Chắc chắn rồi! 😊\n\nHãy tưởng tượng API key giống như là **một chiếc chìa khóa đặc biệt** giúp bạn truy cập vào một dịch vụ nào đó trên internet. Ví dụ như khi bạn dùng một app thời tiết để xem dự báo, app đó có thể dùng ",
+      "error": ""
+    },
+    {
+      "id": "TC-026",
+      "feature": "normal_chat",
+      "status": "PASS",
+      "lessonMode": false,
+      "source_count": 0,
+      "answer_preview": "Chào bạn! 😊 Mình là VLearn, trợ lý học tập của bạn. Tuy nhiên, mình không có quyền truy cập vào hệ thống điểm thi hay thông tin cá nhân của bạn được. Bạn vui lòng kiểm tra điểm thi cuối khóa của mình trên cổng thông tin",
+      "error": ""
+    }
+  ]
+}

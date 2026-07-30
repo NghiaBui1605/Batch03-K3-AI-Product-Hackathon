@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VLearn Knowledge Tutor</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Thư viện kiến thức">
+        <div class="brand">
+          <div class="brand-mark">V</div>
+          <div>
+            <h1>VLearn Tutor</h1>
+            <p>Trợ lý AI kiểm soát quyền</p>
+          </div>
+        </div>
+
+        <section class="panel">
+          <div class="panel-title">
+            <span>Tiến độ học</span>
+            <strong id="current-day-label">Day02</strong>
+          </div>
+          <div id="day-selector" class="day-selector" role="group" aria-label="Chọn ngày hiện tại"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <span>Thư viện bài học</span>
+            <strong id="library-count">0/6</strong>
+          </div>
+          <div id="library-list" class="library-list"></div>
+        </section>
+
+        <section class="panel search-panel">
+          <label for="library-search">Tìm trong tài liệu đã học</label>
+          <input id="library-search" type="search" placeholder="attention, workflow, problem statement..." />
+          <div id="search-results" class="search-results"></div>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Chế độ đọc VLearn</p>
+            <h2 id="deck-title">Học liệu đang mở</h2>
+          </div>
+          <div class="topbar-actions">
+            <div id="access-summary" class="access-summary"></div>
+            <button id="api-settings-toggle" class="ghost-button api-btn" type="button">
+              ⚙️ API AI
+            </button>
+            <button id="chat-toggle" class="ghost-button" type="button" aria-controls="chat-panel" aria-expanded="true">
+              Ẩn chatbot
+            </button>
+          </div>
+        </header>
+
+        <section class="learning-layout">
+          <section class="slide-stage" aria-label="Slide đang đọc">
+            <article id="demo-slide" class="demo-slide">
+              <p id="slide-section" class="slide-section">Section</p>
+              <h3 id="slide-title">Slide title</h3>
+              <div id="slide-body" class="slide-body"></div>
+              <div id="slide-note" class="slide-note"></div>
+            </article>
+            <iframe
+              id="pdf-slide"
+              class="pdf-slide"
+              title="Slide PDF"
+              loading="eager"
+              hidden
+            ></iframe>
+
+            <div class="quick-actions" aria-label="Câu hỏi mẫu">
+              <button data-question="Day04 giải thích attention là gì?">Day04 - Attention</button>
+              <button data-question="Ở Day05, workflow được hiểu như thế nào?">Day05 - Workflow</button>
+              <button data-question="Day06 nói gì về transformer?">Day06 - Kiểm tra quyền</button>
+            </div>
+          </section>
+
+          <aside id="chat-panel" class="chat-panel" aria-label="Chatbot học liệu">
+            <div class="chat-header">
+              <div>
+                <span class="eyebrow">AI Tutor</span>
+                <h3>Hỏi trong phạm vi đã học</h3>
+              </div>
+              <button id="chat-close" class="icon-button" type="button" aria-label="Ẩn chatbot">✕</button>
+            </div>
+
+            <div id="chat-stream" class="chat-stream" aria-live="polite"></div>
+
+            <form id="chat-form" class="composer">
+              <textarea
+                id="question-input"
+                rows="2"
+                placeholder="Ví dụ: Day04 giải thích attention là gì?"
+                aria-label="Nhập câu hỏi"
+              ></textarea>
+              <button class="send-button" type="submit" aria-label="Gửi câu hỏi">
+                <span>Gửi</span>
+              </button>
+            </form>
+
+            <section class="source-box" aria-label="Nguồn trả lời">
+              <div class="inspector-header">
+                <span>Nguồn gần nhất</span>
+                <strong id="source-count">0</strong>
+              </div>
+              <div id="source-panel" class="source-panel"></div>
+            </section>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <!-- Modal Cấu hình Real AI API -->
+    <div id="api-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="api-modal-title">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3 id="api-modal-title">⚙️ Cấu hình Real AI API</h3>
+          <button id="api-modal-close" class="icon-button" type="button" aria-label="Đóng">✕</button>
+        </div>
+        <form id="api-form" class="modal-body">
+          <div class="form-group">
+            <label for="api-provider">Nhà cung cấp API (Provider)</label>
+            <select id="api-provider">
+              <option value="openai">OpenAI (ChatCompletions)</option>
+              <option value="gemini">Google Gemini API</option>
+              <option value="custom">Custom / Proxy API (OpenAI Compatible)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="api-key">API Key</label>
+            <input id="api-key" type="password" placeholder="sk-... hoặc AIzaSy..." autocomplete="off" />
+            <small class="form-hint">API Key được lưu an toàn tại trình duyệt cá nhân (localStorage).</small>
+          </div>
+          <div class="form-group">
+            <label for="api-model">Tên Model</label>
+            <input id="api-model" type="text" placeholder="gpt-4o-mini / gemini-1.5-flash" />
+          </div>
+          <div class="form-group" id="custom-url-group">
+            <label for="api-base-url">Base URL (Dành cho Custom API)</label>
+            <input id="api-base-url" type="text" placeholder="https://api.openai.com/v1" />
+          </div>
+          <div class="modal-status" id="api-status-msg"></div>
+          <div class="modal-footer">
+            <button id="api-save-btn" class="primary-button" type="submit">Lưu cấu hình</button>
+            <button id="api-clear-btn" class="ghost-button" type="button">Xóa Key (Dùng Local Engine)</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
