@@ -257,9 +257,9 @@ Số câu bắt nguồn từ quan sát thực tế/tự dùng thử/chatlog: 15 
 
 ### Kết quả chạy thử gần nhất
 
-Kết quả gần nhất: 30/30 câu đạt nếu tính cả `PASS`, `PASS_REVIEWED`, `PASS_CODE_CHECK`.
+Kết quả gần nhất: 27/30 câu đạt nếu tính cả `PASS`, `PASS_REVIEWED`, `PASS_CODE_CHECK`.
 
-Tỷ lệ đạt: 100.0%.
+Tỷ lệ đạt: 90.0%.
 
 Các lỗi từng phát hiện và đã siết lại:
 
